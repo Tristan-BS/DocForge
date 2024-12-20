@@ -86,6 +86,7 @@ def GenerateMarkdown(parsed_data, input_file):
     last_modified = GetLastModifiedDate(input_file)
     markdown += "\n## Credits\n"
     markdown += "This README was generated using **DocForge** (created by Tristan-BS).\n"
+    markdown += f"DocForge version: {VERSION}\n"
     markdown += f"Last modified on: {last_modified}\n"
 
     return markdown
