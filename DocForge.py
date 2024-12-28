@@ -2,7 +2,7 @@ import os
 import ast
 import time
 
-VERSION = "0.1.1-beta"
+VERSION = "0.1.2-beta"
 
 def ParsePythonCode(file_path):
     """
